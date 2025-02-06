@@ -3,6 +3,9 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup Label="App">
-    <PackageVersion Include="Akka" Version="1.5.37" />
+    <PackageVersion Include="Akka.Hosting" Version="1.5.37" />
+    <PackageVersion Include="Akka.Persistence.Sql.Hosting" Version="1.5.37" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageVersion Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
 </Project>

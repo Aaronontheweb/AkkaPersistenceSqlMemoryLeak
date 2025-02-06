@@ -3,6 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7645DE52-0DAE-4A92-B2BC-DDE97F2CBC3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Persistence.Sql.MemoryLeak", "src\Akka.Persistence.Sql.MemoryLeak\Akka.Persistence.Sql.MemoryLeak.csproj", "{792E6E53-0528-47BC-8EB3-D3075C6E9254}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{ED99A08B-F6AD-406D-AD2A-6071C1883FE2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		README.md = README.md
+		RELEASE_NOTES.md = RELEASE_NOTES.md
+		src\Directory.Build.props = src\Directory.Build.props
+		src\Directory.Packages.props = src\Directory.Packages.props
+		src\NuGet.config = src\NuGet.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +24,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{792E6E53-0528-47BC-8EB3-D3075C6E9254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792E6E53-0528-47BC-8EB3-D3075C6E9254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792E6E53-0528-47BC-8EB3-D3075C6E9254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792E6E53-0528-47BC-8EB3-D3075C6E9254}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{792E6E53-0528-47BC-8EB3-D3075C6E9254} = {7645DE52-0DAE-4A92-B2BC-DDE97F2CBC3E}
 	EndGlobalSection
 EndGlobal
