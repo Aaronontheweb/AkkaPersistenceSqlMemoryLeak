@@ -9,7 +9,16 @@
 
   <ItemGroup>
     <PackageReference Include="Akka.Hosting"/>
+    <PackageReference Include="Akka.Persistence.Sql.Hosting" />
     <PackageReference Include="Microsoft.Extensions.Hosting"/>
+    <PackageReference Include="System.Data.SqlClient" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
