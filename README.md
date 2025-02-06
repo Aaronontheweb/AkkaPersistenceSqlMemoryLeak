@@ -1,3 +1,3 @@
-# link-validator
+# Akka.Persistence.Sql MemoryLeak
 
-A CLI for verifying that changes to local websites haven't broken links
+A reproduction for https://github.com/akkadotnet/Akka.Persistence.Sql/issues/516
