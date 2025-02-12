@@ -5,7 +5,7 @@
   <ItemGroup Label="App">
     <PackageVersion Include="Akka.Hosting" Version="1.5.37" />
     <PackageVersion Include="Akka.Persistence.Sql.Hosting" Version="1.5.37" />
-    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="9.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="9.0.2" />
     <PackageVersion Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
 </Project>
